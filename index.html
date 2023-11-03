@@ -12,6 +12,11 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
@@ -21,7 +26,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header" id="header">
+    <!-- <header class="header" id="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo"
@@ -196,271 +201,70 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="team">
-        <div class="container team-cont">
-          <h2 class="team-title">Our Team</h2>
-          <ul class="team-list">
-            <li class="team-hero">
-              <picture>
-                <source
-                  srcset="./images/img-1.jpg 1x, ./images/img-1-2x.jpg 2x"
-                  media="(min-width: 1166px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-1-tab.jpg    1x,
-                    ./images/img-1-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-1-mob.jpg    1x,
-                    ./images/img-1-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767)"
-                />
-                <img
-                  src="./images/img-1.jpg"
-                  alt="photo-frontend-developer"
-                  width="264"
-                  height="260"
-                  class="team-img"
-                />
-              </picture>
+      </section> -->
+    <section class="team">
+      <div class="container team-cont">
+        <h2 class="team-title">Our <span class="logo-span">Mentors</span></h2>
+        <ul class="team-list">
+          <li class="team-hero">
+            <img
+              src="./images/emilia-tab.jpg"
+              alt="photo-frontend-developer"
+              width="180"
+              height="180"
+              class="team-img"
+            />
+            <div class="container-team">
+              <h3 class="team-hero-name">Emilia Smith</h3>
+              <p class="team-hero-proff">1.5 years of experience</p>
+            </div>
+          </li>
+          <li class="team-hero">
+            <img
+              src="./images/alex-tab.jpg"
+              alt="photo-frontend-developer"
+              width="180"
+              height="180"
+              class="team-img"
+            />
 
-              <div class="container-team">
-                <h3 class="team-hero-name">Mark Guerrero</h3>
-                <p class="team-hero-proff">Product Designer</p>
-                <ul class="team-hero-list">
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.instagram.com/">
-                      <svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.twitter.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.facebook.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.linkedin.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-hero">
-              <picture>
-                <source
-                  srcset="./images/img-2.jpg 1x, ./images/img-2-2x.jpg 2x"
-                  media="(min-width: 1166px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-2-tab.jpg    1x,
-                    ./images/img-2-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-2-mob.jpg    1x,
-                    ./images/img-2-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767)"
-                />
-                <img
-                  src="./images/img-2.jpg"
-                  alt="photo-frontend-developer"
-                  width="264"
-                  height="260"
-                  class="team-img"
-                />
-              </picture>
+            <div class="container-team">
+              <h3 class="team-hero-name">Alex Lebedev</h3>
+              <p class="team-hero-proff">3.5 years of experience</p>
+            </div>
+          </li>
+          <li class="team-hero">
+            <img
+              src="./images/mia-tab.jpg"
+              alt="photo-frontend-developer"
+              width="180"
+              height="180"
+              class="team-img"
+            />
 
-              <div class="container-team">
-                <h3 class="team-hero-name">Tom Ford</h3>
-                <p class="team-hero-proff">Frontend Developer</p>
-                <ul class="team-hero-list">
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.instagram.com/">
-                      <svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.twitter.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.facebook.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.linkedin.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-hero">
-              <picture>
-                <source
-                  srcset="./images/img-3.jpg 1x, ./images/img-3-2x.jpg 2x"
-                  media="(min-width: 1166px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-3-tab.jpg    1x,
-                    ./images/img-3-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-3-mob.jpg    1x,
-                    ./images/img-3-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767)"
-                />
-                <img
-                  src="./images/img-3.jpg"
-                  alt="photo-frontend-developer"
-                  width="264"
-                  height="260"
-                  class="team-img"
-                />
-              </picture>
+            <div class="container-team">
+              <h3 class="team-hero-name">Mia Dubrovska</h3>
+              <p class="team-hero-proff">2.0 years of experience</p>
+            </div>
+          </li>
+          <li class="team-hero">
+            <img
+              src="./images/eliot-tab.jpg"
+              alt="photo-frontend-developer"
+              width="180"
+              height="180"
+              class="team-img"
+            />
 
-              <div class="container-team">
-                <h3 class="team-hero-name">Camila Garcia</h3>
-                <p class="team-hero-proff">Marketing</p>
-                <ul class="team-hero-list">
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.instagram.com/">
-                      <svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.twitter.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.facebook.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.linkedin.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-hero">
-              <picture>
-                <source
-                  srcset="./images/img-4.jpg 1x, ./images/img-4-2x.jpg 2x"
-                  media="(min-width: 1166px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-4-tab.jpg    1x,
-                    ./images/img-4-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/img-4-mob.jpg    1x,
-                    ./images/img-4-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767)"
-                />
-                <img
-                  src="./images/img-4.jpg"
-                  alt="photo-frontend-developer"
-                  width="264"
-                  height="260"
-                  class="team-img"
-                />
-              </picture>
-
-              <div class="container-team">
-                <h3 class="team-hero-name">Daniel Wilson</h3>
-                <p class="team-hero-proff">UI Designer</p>
-                <ul class="team-hero-list">
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.instagram.com/">
-                      <svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.twitter.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.facebook.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-hero-item">
-                    <a class="team-hero-link" href="https://www.linkedin.com/"
-                      ><svg width="16" height="16" class="team-hero-item-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="portfolio">
+            <div class="container-team">
+              <h3 class="team-hero-name">Eliot Kovalev</h3>
+              <p class="team-hero-proff">4.0 years of experience</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-title-list">
@@ -729,9 +533,9 @@
             </li>
           </ul>
         </div>
-      </section>
-    </main>
-    <footer class="footer">
+      </section> -->
+    <!-- </main> -->
+    <!-- <footer class="footer">
       <div class="container footer-wrapper">
         <div class="footer-container">
           <a href="./index.html" class="footer-title"
@@ -878,6 +682,6 @@
           <button type="submit" class="modal-btn-send">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
